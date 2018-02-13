@@ -14,9 +14,9 @@ set -o nounset    # fail on unset variables
 HEROKU_TEAM_NAME="" 
 
 # Name of the Heroku apps you'll use
-HEROKU_DEV_APP_NAME="dev-dreamhouse"
-HEROKU_STAGING_APP_NAME="test-dreamhouse"
-HEROKU_PROD_APP_NAME="prod-dreamhouse"
+HEROKU_DEV_APP_NAME="djc-dev-dreamhouse"
+HEROKU_STAGING_APP_NAME="djc-test-dreamhouse"
+HEROKU_PROD_APP_NAME="djc-prod-dreamhouse"
 
 # Pipeline
 HEROKU_PIPELINE_NAME="dcarroll-demo-pipeline"
