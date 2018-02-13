@@ -11,15 +11,15 @@ set -o nounset    # fail on unset variables
 ### Declare values
 
 # Name of your team (optional)
-HEROKU_TEAM_NAME="appcloud-dev" 
+HEROKU_TEAM_NAME="" 
 
 # Name of the Heroku apps you'll use
-HEROKU_DEV_APP_NAME="dh-pipelines-dev"
-HEROKU_STAGING_APP_NAME="dh-pipelines-staging"
-HEROKU_PROD_APP_NAME="dh-pipelines-prod"
+HEROKU_DEV_APP_NAME="dev-dreamhouse"
+HEROKU_STAGING_APP_NAME="test-dreamhouse"
+HEROKU_PROD_APP_NAME="prod-dreamhouse"
 
 # Pipeline
-HEROKU_PIPELINE_NAME="dh-pipelines-pipeline"
+HEROKU_PIPELINE_NAME="dcarroll-demo-pipeline"
 
 # Usernames or aliases of the orgs you're using
 DEV_HUB_USERNAME="HubOrg"
@@ -28,7 +28,7 @@ STAGING_USERNAME="TestOrg"
 PROD_USERNAME="ProdOrg"
 
 # Repository with your code
-GITHUB_REPO="wadewegner/dh-pipelines"
+GITHUB_REPO="dcarroll/dh-pipelines"
 
 ### Setup script
 
